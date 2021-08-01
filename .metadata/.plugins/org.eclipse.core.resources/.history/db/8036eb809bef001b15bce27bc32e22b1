@@ -1,0 +1,29 @@
+package question3;
+
+/*import java.util.Scanner;
+
+public class MassOfEarth {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc= new Scanner(System.in);
+		Double=sc.nextDouble();
+		*/
+import java.math.BigInteger;
+
+public class MassOfEarth {
+
+    public static void main(String[] args) {
+
+        System.out.println(Long.MAX_VALUE);
+
+        BigInteger b = new BigInteger("92233720368547758071");
+        BigInteger c = new BigInteger("52498235605326345645");
+
+        BigInteger a = b.multiply(c);
+
+        System.out.println(a);
+    }
+}
+		
+	
