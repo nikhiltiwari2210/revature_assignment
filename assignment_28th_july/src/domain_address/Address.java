@@ -17,8 +17,3 @@ public class Address {
 	}
 
 }
-
-/*Given a website address as a string, extract the domain name.
- For example, if the website address is "https://en.wikipedia.org/wiki/Main_Page",
- then it should return "en.wikipedia.org" as the domain name.
- */
