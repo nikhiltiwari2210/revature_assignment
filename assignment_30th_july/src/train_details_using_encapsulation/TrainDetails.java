@@ -1,4 +1,4 @@
-package question1;
+package train_details_using_encapsulation;
 
 public class TrainDetails {
 	

@@ -6276,3 +6276,30 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2021-08-01 20:54:01.241
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-01 21:07:57.962
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-01 21:07:57.973
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-01 21:07:57.978
+!MESSAGE buffering callback sts4.classpath.eZFwROGY quadrilateral_using_inheritance false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-01 21:07:57.980
+!MESSAGE executing callback sts4.classpath.eZFwROGY 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-01 21:07:58.000
+!MESSAGE executing callback sts4.classpath.eZFwROGY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-01 21:08:12.304
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-01 21:08:12.307
+!MESSAGE buffering callback sts4.classpath.eZFwROGY quadrilateral_using_inheritance true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-01 21:08:12.308
+!MESSAGE executing callback sts4.classpath.eZFwROGY 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-01 21:08:12.325
+!MESSAGE executing callback sts4.classpath.eZFwROGY SUCCESS [done]
