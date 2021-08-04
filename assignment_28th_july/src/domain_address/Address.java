@@ -11,9 +11,7 @@ public class Address {
 		
 		String s1[]=s.split(" ");
 		//System.out.println(Array.toString(s1));
-		System.out.println(s1[2]);
-		
-		
+		System.out.println(s1[2]);	
 	}
 
 }

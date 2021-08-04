@@ -1,4 +1,4 @@
-package task5;
+package remove_duplicate;
 
 import java.util.Scanner;
 
@@ -33,4 +33,5 @@ public class RemoveDuplicateFromArray {
 }
 }
 }
+//Take an array and remove all duplicates in it
 

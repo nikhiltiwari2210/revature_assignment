@@ -1,4 +1,4 @@
-package task4;
+package nth_max;
 
 import java.util.Scanner;
 
@@ -27,3 +27,5 @@ public class MaxFromArray {
 	}
 
 }
+
+//Find Nth  max in array, remember it will have duplicates
