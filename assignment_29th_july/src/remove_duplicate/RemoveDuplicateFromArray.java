@@ -1,37 +1,42 @@
 package remove_duplicate;
 
-import java.util.Scanner;
+import java.util.Arrays;
 
 public class RemoveDuplicateFromArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		int i,l,j,n,c=0,max=0;
-		
-		Scanner sc =new Scanner(System.in);
-		System.out.println("Enter Array length");
-		n=sc.nextInt();
-		int arr[]= new int[n];
-		l=arr.length;
-		System.out.println("Enter duplicate Elements in array");
+		int arr[]= {22,21,47,33,224,85,22,72,47,74};
+		Arrays.sort(arr);
+		System.out.println(Arrays.toString(arr));
+		removeDuplicates(arr);
 
-		for(i=0;i<l;i++){
-			arr[i]=sc.nextInt();
+	}
+	static void removeDuplicates(int arr[])
+	{
+		int n= arr.length;
+		if(n==0||n==1)
+		{
+			System.out.println(Arrays.toString(arr));
 		}
-		int a[]=new int[n];
-		for (i=0;i<l;i++) {
-			for(j=0;j<l;j++) {
-				if(arr[i]!=arr[j]) {
-					a[c]=arr[i];
-						c++;
+		else
+		{
+			int j=0;
+			for(int i=0;i<n-1;i++)
+			{
+				if(arr[i]!=arr[i+1])
+				{
+				  arr[j++]=arr[i];
+				}
+			}
+			arr[j++]=arr[n-1];
+			System.out.println("Removed duplicated numbers");
+			for(int i=0;i<j;i++)
+			{
+			System.out.print(arr[i]+" ");
+			}
 		}
 	}
-			for(i=0;i<a.length;i++) {
-			System.out.println(a[i]);}
-		
-}
-}
 }
 //Take an array and remove all duplicates in it
 
