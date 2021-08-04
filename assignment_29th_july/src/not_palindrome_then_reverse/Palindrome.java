@@ -10,11 +10,11 @@ public class Palindrome {
 		System.out.println("Enter the string");
 		String s=sc.nextLine();
 		String[] arr=s.split(" ");
-		String f="";
+		String s1="";
 		for(String x:arr) {
-			f=f+ isPallindrome(x)+" ";
+			s1=s1+ isPallindrome(x)+" ";
 		}
-		System.out.println(f);
+		System.out.println(s1);
 	}
 	static String isPallindrome(String s)
 	{

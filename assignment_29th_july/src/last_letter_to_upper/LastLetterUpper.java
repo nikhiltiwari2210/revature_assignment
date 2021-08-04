@@ -11,13 +11,12 @@ public class LastLetterUpper {
 		String s=sc.nextLine();
 		
 		String[] arr=s.split(" ");
-		String f="";
+		String s1="";
 		
-		for(String x:arr) {
-			f=f+convertLast(x)+" ";
+		for(int i=0;i<arr.length;i++) {
+			s1=s1+convertLast(arr[i])+" ";
 		}
-		System.out.println(f);
-
+		System.out.println(s1);
 	}
 	static String convertLast(String s)
 	{
@@ -28,5 +27,4 @@ public class LastLetterUpper {
 		return s.substring(0,s.length()-1) + c1;
 	}
 }
-
 //Convert every word's last letter to upper case
