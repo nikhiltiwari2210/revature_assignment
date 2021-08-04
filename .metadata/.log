@@ -10828,3 +10828,54 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 23:37:56.390
 !MESSAGE executing callback sts4.classpath.LeiYjGhD SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 23:50:33.228
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 23:50:33.231
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 23:50:33.234
+!MESSAGE buffering callback sts4.classpath.LeiYjGhD assignment_03rd_july false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 23:50:33.235
+!MESSAGE executing callback sts4.classpath.LeiYjGhD 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 23:50:33.244
+!MESSAGE executing callback sts4.classpath.LeiYjGhD SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 23:50:45.998
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 23:50:46.001
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 23:50:46.003
+!MESSAGE buffering callback sts4.classpath.LeiYjGhD assignment_03rd_aug false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 23:50:46.004
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 23:50:46.005
+!MESSAGE buffering callback sts4.classpath.LeiYjGhD assignment_03rd_july true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 23:50:46.006
+!MESSAGE executing callback sts4.classpath.LeiYjGhD 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 23:50:46.011
+!MESSAGE executing callback sts4.classpath.LeiYjGhD SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 23:51:04.925
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 23:51:04.928
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 23:51:04.929
+!MESSAGE buffering callback sts4.classpath.LeiYjGhD assignment_04th_aug false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 23:51:04.930
+!MESSAGE executing callback sts4.classpath.LeiYjGhD 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 23:51:04.937
+!MESSAGE executing callback sts4.classpath.LeiYjGhD SUCCESS [done]
